@@ -18,13 +18,16 @@ Text Domain: club-voyage
 @import "composant/menu";
 @import "composant/carte";
 @import "composant/recherche";
+@import "composant/article";
 
 
 /* importation du style principal du theme */
 //@import "base/titre";
-//@import "base/general";
+@import "layout/general";
 
 @import "layout/entete";
 @import "layout/footer";
+
+//@import "composant/caroussel";
 
 //@import "composant/menu";

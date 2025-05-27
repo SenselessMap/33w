@@ -1,6 +1,7 @@
+/*
 * {
     border: 1px solid black;
-}
+}*/
 
 body {
     margin: 0;
@@ -16,4 +17,9 @@ body {
 
     max-width: 1000px;
     margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center; 
+    gap: 1rem;     
 }
